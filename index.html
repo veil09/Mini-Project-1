@@ -4,208 +4,211 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Macchiato Up</title>
-    <!--CSS Link-->
-    <link rel="stylesheet" href="style.css" />
-    <!--Icons-->
+    <!------ ICONS ------->
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
+    <!--------- CSS ----------->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Navbar-->
-    <header>
-      <a href="#" class="logo">
-        <img
-          src="https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/326140374_710949670434413_3469283305260622931_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=Ya7WOzfHd34AX9P_vvt&_nc_ht=scontent.fceb2-2.fna&oh=00_AfCmefSv_ZdKvJvGbVfzbe1OTztjw9K-4XQtizSnGtzYjw&oe=650AA470"
-          alt=""
-        />
-      </a>
-      <!--Menu-->
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <!--Links-->
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#products">Menu</a></li>
-        <li><a href="#review">Review</a></li>
-      </ul>
-      <!--Icon-->
-      <div class="header-icon">
-        <i class="bx bx-cart"></i>
-        <i class="bx bx-search" id="search-icon"></i>
-      </div>
-      <!--Search Bar-->
-      <div class="search-box">
-        <input type="search" name="" id="" placeholder="Search Here" />
+    <!------HEADER------->
+    <header class="header-logo">
+      <div class="container">
+        <div class="header">
+          <a href="index.html" class="logo">Macchiato Up </a>
+          <div class="menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#review">Reviews</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+            </ul>
+          </div>
+          <div class="header-icon">
+            <div class="search-btn">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="cart-btn">
+              <i class="bx bx-cart"></i>
+            </div>
+            <div class="menu-icon">
+              <i class="bx bx-menu"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
-    <!-- Home -->
-    <section class="home" id="home">
-      <div class="home-text">
-        <h1>
-          Level Up Your <br />
-          Usual Macchiato!
-        </h1>
-        <p>
-          Level Up Everyday with this new flavor only here at Cebu's Level Up 39
-          Coffee
-        </p>
-        <a href="#" class="btn">Shop Now</a>
+    <!-----Section Background---->
+    <section
+      class="banner-area"
+      style="background-image: url('img/banner.png')"
+    >
+      <div class="container">
+        <div class="banner-content">
+          <span>Level Up Your Usual Macchiato</span>
+          <h4>Level Up Everyday with Macchiato Up</h4>
+          <p>Truly, we continue to level up everyday!</p>
+          <a href="" class="btn">Read more</a>
+        </div>
       </div>
     </section>
-    <!--About-->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img
-          src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/352205143_1233364270876615_4702380089028596087_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=49d041&_nc_ohc=EHUkprcpXgoAX-xbeAB&_nc_ht=scontent.fceb2-1.fna&oh=00_AfAE4KIhTPDZFCfGjvNUqdbkCWGyWKM2CSfPWJ13cBybGQ&oe=650C3141"
-        />
-      </div>
-      <div class="about-text">
-        <h2>Our History</h2>
-        <p>
-          Macchiato Up Established in 2023 to provide the best coffee
-          experience<br />
-          to our guests with our wide range of flavored coffee and exquisite
-          ambiance.<br />
-          Macchiato Up is one of the very few coffee companies in the city that
-          target <br />the younger demographic.
-        </p>
-        <a href="#" class="btn">Learn More</a>
-      </div>
-    </section>
-    <!--Products-->
-    <section class="product" id="products">
-      <div class="heading">
-        <h2>Menu</h2>
-      </div>
-      <!--Container-->
-      <div class="products-container">
-        <div class="box">
-          <img
-            src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/365750761_240743172249634_2424936883626509787_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5614bc&_nc_ohc=5k5qF0KgUi4AX_0QQlX&_nc_ht=scontent.fceb2-1.fna&oh=00_AfAZYnKSJLcaa85GsAiC9pyeNQckRQ15e3oAL-0q6a1l8g&oe=650B5560"
-            alt=""
-          />
-          <h3>Macchiato Original</h3>
-          <div class="content">
-            <span>₱39</span>
-            <a href="#">Add to cart</a>
+    <!----- ABOUT Us----->
+    <section class="about-area">
+      <div class="container">
+        <div class="about">
+          <div class="about-img">
+            <img src="img/about.jpg" alt="" />
           </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/364796227_238571092466842_557981351886321798_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=6hloiElmTGUAX9pPn7e&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfDu4YHqAFJS_BQNkvTb6HjE9vdF_TL7lZz5fdm4UUfSpg&oe=650C4093"
-            alt=""
-          />
-          <h3>Macchiato Matcha</h3>
-          <div class="content">
-            <span>₱39</span>
-            <a href="#">Add to cart</a>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/364793429_238571162466835_539979679028023419_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_ohc=ugbe5QwFlIsAX9lcE6A&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfAriFMbFbJFv-tMjXHzE1uZpy3W3MEWgz_tmFAsHRoBMQ&oe=650C40F3"
-            alt=""
-          />
-          <h3>Macchiato Red Velvet</h3>
-          <div class="content">
-            <span>₱39</span>
-            <a href="#">Add to cart</a>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://scontent.fceb2-2.fna.fbcdn.net/v/t39.30808-6/365238094_238571479133470_506957005218176659_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=5IMH1MavEJMAX8KlObK&_nc_ht=scontent.fceb2-2.fna&oh=00_AfA-8ltJnqz6hhctEuXNEFc6fOzZk4TnBbTaPu4yjfHJIQ&oe=650C4B7D"
-            alt=""
-          />
-          <h3>Macchiato Choco</h3>
-          <div class="content">
-            <span>₱39</span>
-            <a href="#">Add to cart</a>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/364795496_238571042466847_405918663842156566_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=49d041&_nc_ohc=sJ_n6OjP9voAX8r0amr&_nc_ht=scontent.fceb2-1.fna&oh=00_AfCPK5BzvOIm6UcPt9Sk0OBTltR53AWFdCWwBt7Ro1Oa-A&oe=650BE3BD"
-            alt=""
-          />
-          <h3>Macchiato Oreo</h3>
-          <div class="content">
-            <span>₱48</span>
-            <a href="#">Add to cart</a>
-          </div>
-        </div>
-        <div class="box">
-          <img
-            src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/363799628_238570989133519_2859645238499137369_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_ohc=4qhAza27kEoAX83K39q&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfDSZ0FsaDIYi2v-vWmRbHqkFjzkeqW68-vkTNFjct7CAQ&oe=650AFF0E"
-            alt=""
-          />
-          <h3>Macchiato Pearl</h3>
-          <div class="content">
-            <span>₱48</span>
-            <a href="#">Add to cart</a>
+          <div class="about-content">
+            <span>About us </span>
+            <p>
+              Macchiato Up is Established last year December 2022 to provide the
+              best coffee experience to our guests with our wide range of
+              flavored coffee and exquisite ambiance. Macchiato up is one of the
+              very few coffee companies in the city that target the younger
+              demographic.
+            </p>
+            <a href="" class="btn">Read more</a>
           </div>
         </div>
       </div>
     </section>
-    <!--Review-->
-    <section class="review" id="review">
-      <div class="heading">
-        <h2>Our Costumer's</h2>
-      </div>
-      <!--Container-->
-      <div class="review-container">
-        <div class="box">
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
-          </div>
-          <p>great customer service. Keep it up!</p>
-          <h2>Anonymoous</h2>
-          <img
-            src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/312225072_5868187916534175_4001775693321165800_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEKl5X1QItAkfK0E0GOIJg3ngXGWnC8yP2eBcZacLzI_Zs71sFE1aMDD1a2HfuGI6W9LvHbK4dQzv9DBV4PSqjf&_nc_ohc=zbg4btLsLXwAX-N9fge&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&oh=00_AfDQ0NuG0-jDncf9tba29ni9dS6axZXVYoBmOuW8aeM5nQ&oe=650C8150"
-            alt=""
-          />
+    <!----- MENU ----->
+    <section class="food-menus-area">
+      <div class="container">
+        <div class="section-title">
+          <i class="bx bxs-coffee"></i>
+          <h4>Best Seller</h4>
+          <p>
+            Level Up Everyday with this new flavor only here at Cebu's Level Up
+            39 Coffee
+          </p>
         </div>
-        <div class="box">
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+        <div class="food-menus">
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/Original1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Original</h4>
+              <p>Price - <span>₱39</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
           </div>
-          <p>Matcha my favourite 🤩</p>
-
-          <h2>Anonymoous</h2>
-          <img
-            src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/322012159_405710595046161_354497636768266970_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeEokRN3BdrZq_SnRCK9RJzlgf66Lb_2LRiB_rotv_YtGIJ2OMvD_2954DTUpY02gUFLwQxlcl32HtVakNUGq2hv&_nc_ohc=-Fy7DidAonIAX_kjVFl&_nc_zt=23&_nc_ht=scontent.fceb2-1.fna&oh=00_AfDAUBESAhe7PfTyA3wXDkh0JUgVUDDQGabB4UyTjxy7dw&oe=650DA65D"
-            alt=""
-          />
-        </div>
-        <div class="box">
-          <div class="stars">
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/matcha1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Matcha</h4>
+              <p>Price - <span>₱39</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
           </div>
-          <p>great customer service. Keep it up!</p>
-          <h2>Anonymoous</h2>
-          <img
-            src="https://scontent.fceb2-2.fna.fbcdn.net/v/t31.18172-8/14324137_1275505355794174_6119122262730465449_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGtVU2ZOOfVtuapfphPW03mOyursLAH0QE7K6uwsAfRASooEHnBOlkWQXBM_TNVCYj7s3H-PlCYY9_mFE7JoeRh&_nc_ohc=RiOu-9wPc2wAX9V8YgD&_nc_ht=scontent.fceb2-2.fna&oh=00_AfBImd4y-M6rXIkrr7JLbGN1QAXsxbMOOqQcdVaVKj4BLQ&oe=652F3A8D"
-            alt=""
-          />
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/choco1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Choco</h4>
+              <p>Price - <span>₱39</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
+          </div>
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/redvelvet1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Red Velvet</h4>
+              <p>Price - <span>₱39</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
+          </div>
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/oreo1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Oreo</h4>
+              <p>Price - <span>₱48</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
+          </div>
+          <div class="single-menu">
+            <div class="menu-img">
+              <img src="img/pearl1.jpg" alt="" />
+            </div>
+            <div class="menu-content">
+              <h4>Macchiato Pearl</h4>
+              <p>Price - <span>₱48</span></p>
+              <a href=""><i class="bx bx-cart"></i></a>
+              <a href=""><i class="bx bxs-package"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- JavaScript-->
-    <script src="main.js"></script>
+    <!----Feedback --->
+    <section class="feedback-area">
+      <div class="container">
+        <div class="section-title">
+          <i class="bx bxs-message-detail"></i>
+          <h4>Feedback</h4>
+          <p>Got an idea, suggestion or general feedback?Share it here!</p>
+        </div>
+        <div class="feedbacks">
+          <div class="single-feedback">
+            <i class="bx bxs-quote-left"></i>
+            <p>
+              Will go again.I only popped in to get take-away cappuccinos, but I
+              was struck by how friendly the service was. The cappuccinos were
+              wonderful too! And very well priced.
+            </p>
+            <img src="img/cleint2.jpg" alt="" />
+            <h4>Cara Parra</h4>
+          </div>
+
+
+          <div class="single-feedback">
+            <i class="bx bxs-quote-left"></i>
+            <p>
+              his coffee shop is my favorite place to hang and do my works. I
+              really like this place because it has a good ambiance and not too
+              crowded as well. The coffee and pastries that they had were so
+              delicious.
+            </p>
+            <img src="img/client3.jpg" alt="" />
+            <h4>Lukas Bean</h4>
+          </div>
+          <div class="single-feedback">
+            <i class="bx bxs-quote-left"></i>
+            <p>
+              his coffee shop is my favorite place to hang and do my works. I
+              really like this place because it has a good ambiance and not too
+              crowded as well. The coffee and pastries that they had were so
+              delicious.
+            </p>
+            <img src="img/client4.jpg" alt="" />
+            <h4>John Doe</h4>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------- JQUERY Library ----->
+    <script src="js/jquery.min.js"></script>
+    <!------- JavaScript ------->
+    <script src="js/main.js"></script>
   </body>
 </html>
