@@ -265,3 +265,37 @@ body {
 .single-feedback p {
   color: #fff;
 }
+.blog-area {
+  border-top: 3px solid #c7a77a;
+  padding: 100px 0;
+}
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-blog {
+  flex-basis: 32%;
+  background-color: #c7a77a;
+  padding: 15px;
+  border: 1px solid #c7a77a;
+  color: #333;
+  border-radius: 7px;
+}
+.single-blog ul {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dashed #333;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.single-blog ul li {
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+.single-blog h4 a {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+  display: block;
+}
